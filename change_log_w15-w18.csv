@@ -1,0 +1,189 @@
+event_id,timestamp,week,weekday,channel,raised_by,type,customer,order_id,line,horizon_hours,lines_affected,in_sap_same_day,customer_answer_hours,detail
+E0016,2026-04-06 07:08,2026-W15,Mon,email,Stéphane,quantity_change,Codra Retail,O57240,M05,11,1,no,21.5,Codra Retail: O57240 PPK-4040 from 22 t to 34 t
+E0023,2026-04-06 08:46,2026-W15,Mon,email,Stéphane,date_change,Duval Home,O57256,M06,9,1,yes,5.3,Duval Home asks to pull O57256 forward to Mon
+E0003,2026-04-06 12:46,2026-W15,Mon,email,Stéphane,date_change,Bricoval,O57215,M04,89,1,no,18.9,Bricoval asks to pull O57215 forward to Fri
+E0031,2026-04-06 12:51,2026-W15,Mon,email,Stéphane,rush_order,Alvena Packaging,O57270,M07,80,2,no,23.1,"New order O57270 Alvena Packaging PPC-3120 25 t, needed Thu"
+E0030,2026-04-06 13:18,2026-W15,Mon,email,Stéphane,rush_order,Duval Home,O57269,M05,21,1,no,4.2,"New order O57269 Duval Home PPG-5030 23 t, needed Tue"
+E0028,2026-04-06 14:09,2026-W15,Mon,phone,Stéphane,date_change,Alvena Packaging,O57264,M05,24,2,no,25.5,Alvena Packaging asks to pull O57264 forward to Tue
+E0002,2026-04-06 17:24,2026-W15,Mon,phone,Stéphane,date_change,Duval Home,O57213,M02,41,2,no,21.8,Duval Home asks to push O57213 back to Fri
+E0025,2026-04-07 03:52,2026-W15,Tue,LineLog,Kevin,night_swap,,O57258,M05,0,1,no,,swap O57258 / O57260 M05 no masterbatch
+E0014,2026-04-07 04:22,2026-W15,Tue,LineLog,Kevin,night_swap,,O57236,M06,0,1,no,,swap O57236 / O57238 M06 no masterbatch
+E0037,2026-04-07 07:52,2026-W15,Tue,email,Stéphane,cancellation,Brisol Automotive,O57284,M06,15,1,yes,,Brisol Automotive cancels O57284
+E0029,2026-04-07 08:39,2026-W15,Tue,morning meeting,Amina,quality_hold,Duval Home,O57266,M01,47,1,yes,,"Lot of O57266 held by lab, melt flow out of spec, release in 5 h"
+E0021,2026-04-07 09:19,2026-W15,Tue,LineLog,Patrick,machine_breakdown,,,M05,14,1,no,,"M05 stopped, strand breaks, estimated 3 h"
+E0004,2026-04-07 11:24,2026-W15,Tue,LineLog,Shift leader,machine_breakdown,,,M01,46,1,yes,,"M01 stopped, feeder, estimated 1 h"
+E0020,2026-04-07 11:39,2026-W15,Tue,email,Stéphane,date_change,Codra Retail,O57249,M05,97,1,yes,3.4,Codra Retail asks to pull O57249 forward to Sat
+E0007,2026-04-07 15:37,2026-W15,Tue,morning meeting,Amina,quality_hold,Duval Home,O57222,M03,72,1,no,,"Lot of O57222 held by lab, moisture, release in 6 h"
+E0005,2026-04-07 16:27,2026-W15,Tue,phone,Warehouse,material_late,Codra Retail,O57219,M04,15,1,no,,Masterbatch for O57219 (PPN-1010) arrives Thu instead of Wed
+E0001,2026-04-07 17:57,2026-W15,Tue,email,Stéphane,quantity_change,Codra Retail,O57212,M06,34,1,no,17.4,Codra Retail: O57212 PPK-4040 from 24 t to 18 t
+E0011,2026-04-08 14:03,2026-W15,Wed,phone,Amina,quality_hold,Brisol Automotive,O57230,M02,34,1,no,,"Lot of O57230 held by lab, moisture, release in 3 h"
+E0027,2026-04-08 15:49,2026-W15,Wed,email,Stéphane,quantity_change,Codra Retail,O57262,M02,8,1,no,21.8,Codra Retail: O57262 PPK-4010 from 31 t to 40 t
+E0013,2026-04-08 17:02,2026-W15,Wed,email,Stéphane,date_change,Codra Retail,O57233,M07,16,1,no,4.2,Codra Retail asks to pull O57233 forward to Thu
+E0012,2026-04-09 08:04,2026-W15,Thu,phone,Stéphane,date_change,Brisol Automotive,O57231,M04,124,1,no,16.7,Brisol Automotive asks to push O57231 back to Thu
+E0038,2026-04-09 09:05,2026-W15,Thu,phone,Stéphane,date_change,Alvena Packaging,O57287,M01,30,2,no,5.7,Alvena Packaging asks to pull O57287 forward to Fri
+E0015,2026-04-09 11:34,2026-W15,Thu,email,Stéphane,quantity_change,Codra Retail,O57237,M04,42,2,yes,15.8,Codra Retail: O57237 PPK-4010 from 27 t to 39 t
+E0008,2026-04-09 12:09,2026-W15,Thu,phone,Patrick,machine_breakdown,,,M03,8,1,no,,"M03 stopped, gearbox noise, estimated 1 h"
+E0022,2026-04-09 12:13,2026-W15,Thu,email,Stéphane,rush_order,Bricoval,O57254,M03,25,1,no,17.9,"New order O57254 Bricoval PPN-1020 24 t, needed Fri"
+E0018,2026-04-09 12:37,2026-W15,Thu,phone,Patrick,machine_breakdown,,,M03,35,1,no,,"M03 stopped, feeder, estimated 2 h"
+E0034,2026-04-09 13:04,2026-W15,Thu,phone,Patrick,machine_breakdown,,,M05,40,1,no,,"M05 stopped, gearbox noise, estimated 3 h"
+E0035,2026-04-10 02:04,2026-W15,Fri,LineLog,Kevin,night_swap,,O57279,M05,0,1,no,,swap O57279 / O57281 M05 no masterbatch
+E0026,2026-04-10 12:28,2026-W15,Fri,email,Stéphane,cancellation,Codra Retail,O57259,M02,43,1,no,,Codra Retail cancels O57259
+E0010,2026-04-10 12:35,2026-W15,Fri,email,Stéphane,date_change,Codra Retail,O57228,M01,12,2,no,17.3,Codra Retail asks to pull O57228 forward to Sat
+E0024,2026-04-10 15:11,2026-W15,Fri,workbook,Corinne,planner_resequence,,,M01,37,1,no,,Regroup naturals on M01 to save a changeover
+E0006,2026-04-10 16:11,2026-W15,Fri,email,Stéphane,date_change,Estrel Pipes,O57221,M01,46,1,no,2.9,Estrel Pipes asks to pull O57221 forward to Sun
+E0036,2026-04-10 17:12,2026-W15,Fri,email,Stéphane,quantity_change,Estrel Pipes,O57282,M01,6,1,no,0.7,Estrel Pipes: O57282 PPG-5030 from 19 t to 8 t
+E0033,2026-04-10 17:42,2026-W15,Fri,MaintPro,Patrick,maintenance_window,,,M05,95,1,no,,Preventive on M05 Tue 4 h
+E0009,2026-04-10 17:57,2026-W15,Fri,LineLog,Shift leader,machine_breakdown,,,M05,28,1,no,,"M05 stopped, feeder, estimated 2 h"
+E0019,2026-04-11 14:11,2026-W15,Sat,email,Stéphane,date_change,Brisol Automotive,O57246,M06,19,1,no,14.7,Brisol Automotive asks to pull O57246 forward to Sun
+E0017,2026-04-11 15:52,2026-W15,Sat,phone,Amina,quality_hold,Alvena Packaging,O57243,M02,37,1,no,,"Lot of O57243 held by lab, moisture, release in 2 h"
+E0032,2026-04-11 16:18,2026-W15,Sat,morning meeting,Patrick,maintenance_window,,,M05,85,1,no,,Preventive on M05 Wed 4 h
+E0064,2026-04-13 03:31,2026-W16,Mon,LineLog,Kevin,night_swap,,O57340,M01,0,1,no,,swap O57340 / O57342 M01 no masterbatch
+E0076,2026-04-13 08:12,2026-W16,Mon,email,Stéphane,date_change,Duval Home,O57371,M05,39,1,no,15.4,Duval Home asks to pull O57371 forward to Tue
+E0080,2026-04-13 09:51,2026-W16,Mon,workbook,Corinne,planner_resequence,,,M06,44,2,yes,,Regroup colors on M06 to save a changeover
+E0067,2026-04-13 09:56,2026-W16,Mon,phone,Warehouse,material_late,Codra Retail,O57347,M04,45,1,no,,Masterbatch for O57347 (PPK-4040) arrives Thu instead of Wed
+E0059,2026-04-13 09:57,2026-W16,Mon,email,Stéphane,rush_order,Alvena Packaging,O57329,M01,12,2,yes,25.4,"New order O57329 Alvena Packaging PPK-4010 16 t, needed Mon"
+E0063,2026-04-13 10:41,2026-W16,Mon,phone,Amina,quality_hold,Duval Home,O57337,M05,36,1,no,,"Lot of O57337 held by lab, melt flow out of spec, release in 4 h"
+E0082,2026-04-13 12:25,2026-W16,Mon,email,Stéphane,rush_order,Kerno Electrics,O57383,M07,88,2,no,0.8,"New order O57383 Kerno Electrics PPK-4010 13 t, needed Fri"
+E0071,2026-04-13 13:20,2026-W16,Mon,phone,Amina,quality_hold,Duval Home,O57358,M01,45,1,no,,"Lot of O57358 held by lab, color delta, release in 3 h"
+E0049,2026-04-13 14:12,2026-W16,Mon,phone,Stéphane,date_change,Estrel Pipes,O57312,M06,108,2,no,21.6,Estrel Pipes asks to pull O57312 forward to Sat
+E0046,2026-04-13 15:05,2026-W16,Mon,email,Stéphane,quantity_change,Duval Home,O57305,M07,41,2,no,14.9,Duval Home: O57305 PPN-1020 from 27 t to 38 t
+E0073,2026-04-14 08:40,2026-W16,Tue,morning meeting,Patrick,maintenance_window,,,M06,114,1,yes,,Preventive on M06 Sun 3 h
+E0043,2026-04-14 10:24,2026-W16,Tue,email,Stéphane,date_change,Brisol Automotive,O57298,M05,15,1,yes,15.0,Brisol Automotive asks to pull O57298 forward to Wed
+E0079,2026-04-14 10:36,2026-W16,Tue,email,Stéphane,rush_order,Codra Retail,O57376,M02,54,1,yes,23.2,"New order O57376 Codra Retail PPC-3140 8 t, needed Thu"
+E0039,2026-04-14 16:45,2026-W16,Tue,phone,Stéphane,date_change,Duval Home,O57290,M05,108,1,no,20.7,Duval Home asks to push O57290 back to Tue
+E0055,2026-04-14 16:57,2026-W16,Tue,morning meeting,Amina,quality_hold,Alvena Packaging,O57322,M06,111,1,no,,"Lot of O57322 held by lab, color delta, release in 3 h"
+E0077,2026-04-14 17:46,2026-W16,Tue,phone,Stéphane,quantity_change,Codra Retail,O57372,M01,25,2,no,22.7,Codra Retail: O57372 PPW-2030 from 24 t to 36 t
+E0058,2026-04-15 00:28,2026-W16,Wed,LineLog,Kevin,night_swap,,O57327,M05,0,1,no,,swap O57327 / O57329 M05 crew short
+E0061,2026-04-15 04:45,2026-W16,Wed,LineLog,Kevin,night_swap,,O57331,M05,0,1,no,,swap O57331 / O57333 M05 no masterbatch
+E0070,2026-04-15 07:08,2026-W16,Wed,morning meeting,Amina,quality_hold,Codra Retail,O57355,M02,12,1,yes,,"Lot of O57355 held by lab, melt flow out of spec, release in 2 h"
+E0060,2026-04-15 07:29,2026-W16,Wed,email,Stéphane,rush_order,Bricoval,O57330,M03,15,1,no,24.8,"New order O57330 Bricoval PA6-6010 15 t, needed Wed"
+E0057,2026-04-15 09:12,2026-W16,Wed,phone,Stéphane,quantity_change,Kerno Electrics,O57326,M05,23,2,no,2.4,Kerno Electrics: O57326 PPC-3110 from 19 t to 23 t
+E0069,2026-04-15 11:13,2026-W16,Wed,phone,Warehouse,material_late,Estrel Pipes,O57352,M04,59,1,no,,Masterbatch for O57352 (PPN-1010) arrives Sat instead of Fri
+E0048,2026-04-15 11:18,2026-W16,Wed,phone,Patrick,machine_breakdown,,,M04,31,1,no,,"M04 stopped, cutter blade, estimated 5 h"
+E0053,2026-04-15 11:52,2026-W16,Wed,email,Stéphane,quantity_change,Codra Retail,O57318,M04,30,1,yes,2.6,Codra Retail: O57318 PPN-1010 from 27 t to 33 t
+E0072,2026-04-15 13:33,2026-W16,Wed,email,Stéphane,rush_order,Codra Retail,O57361,M01,96,1,no,1.2,"New order O57361 Codra Retail PPW-2010 19 t, needed Sun"
+E0066,2026-04-15 15:05,2026-W16,Wed,email,Stéphane,quantity_change,Codra Retail,O57345,M04,43,2,no,22.6,Codra Retail: O57345 PPK-4040 from 32 t to 44 t
+E0075,2026-04-16 07:00,2026-W16,Thu,email,Stéphane,date_change,Brisol Automotive,O57368,M05,32,1,no,0.5,Brisol Automotive asks to pull O57368 forward to Fri
+E0062,2026-04-16 09:24,2026-W16,Thu,phone,Warehouse,material_late,Codra Retail,O57334,M06,17,1,no,,Masterbatch for O57334 (PPC-3110) arrives Sat instead of Fri
+E0074,2026-04-16 11:32,2026-W16,Thu,email,Stéphane,quantity_change,Duval Home,O57365,M01,31,1,yes,19.4,Duval Home: O57365 PPN-1010 from 31 t to 23 t
+E0047,2026-04-16 14:22,2026-W16,Thu,email,Stéphane,date_change,Codra Retail,O57306,M01,38,1,no,25.8,Codra Retail asks to pull O57306 forward to Sat
+E0040,2026-04-16 15:36,2026-W16,Thu,phone,Amina,quality_hold,Bricoval,O57293,M03,9,1,no,,"Lot of O57293 held by lab, color delta, release in 5 h"
+E0056,2026-04-16 22:29,2026-W16,Thu,LineLog,Kevin,night_swap,,O57324,M01,0,1,no,,swap O57324 / O57326 M01 crew short
+E0081,2026-04-17 04:31,2026-W16,Fri,LineLog,Kevin,night_swap,,O57380,M07,0,1,no,,swap O57380 / O57382 M07 die change late
+E0042,2026-04-17 08:11,2026-W16,Fri,email,Stéphane,date_change,Codra Retail,O57295,M05,27,1,no,16.8,Codra Retail asks to pull O57295 forward to Sat
+E0065,2026-04-17 14:22,2026-W16,Fri,phone,Stéphane,date_change,Codra Retail,O57343,M07,23,2,no,19.1,Codra Retail asks to push O57343 back to Mon
+E0051,2026-04-17 14:37,2026-W16,Fri,email,Stéphane,rush_order,Codra Retail,O57316,M02,9,1,no,25.7,"New order O57316 Codra Retail PPC-3120 25 t, needed Fri"
+E0052,2026-04-17 15:28,2026-W16,Fri,email,Stéphane,date_change,Codra Retail,O57317,M01,23,1,no,18.1,Codra Retail asks to pull O57317 forward to Sat
+E0041,2026-04-17 16:52,2026-W16,Fri,phone,Warehouse,material_late,Duval Home,O57294,M06,12,1,no,,Masterbatch for O57294 (PPC-3120) arrives Sun instead of Sat
+E0054,2026-04-17 17:01,2026-W16,Fri,phone,Warehouse,material_late,Bricoval,O57321,M06,36,1,no,,Masterbatch for O57321 (PPN-1010) arrives Mon instead of Sun
+E0078,2026-04-17 17:33,2026-W16,Fri,phone,Stéphane,date_change,Codra Retail,O57375,M04,46,2,no,3.3,Codra Retail asks to pull O57375 forward to Sun
+E0050,2026-04-17 17:48,2026-W16,Fri,email,Stéphane,date_change,Duval Home,O57314,M01,55,1,no,14.5,Duval Home asks to pull O57314 forward to Mon
+E0044,2026-04-17 23:33,2026-W16,Fri,LineLog,Kevin,night_swap,,O57301,M03,0,1,no,,swap O57301 / O57303 M03 feeder
+E0068,2026-04-18 12:01,2026-W16,Sat,LineLog,Shift leader,machine_breakdown,,,M05,15,1,no,,"M05 stopped, cutter blade, estimated 6 h"
+E0045,2026-04-19 16:17,2026-W16,Sun,email,Stéphane,quantity_change,Kerno Electrics,O57302,M02,83,1,no,25.9,Kerno Electrics: O57302 PPC-3110 from 28 t to 20 t
+E0126,2026-04-20 08:28,2026-W17,Mon,email,Stéphane,rush_order,Codra Retail,O57468,M01,48,2,yes,18.5,"New order O57468 Codra Retail PPK-4040 15 t, needed Wed"
+E0113,2026-04-20 08:44,2026-W17,Mon,workbook,Corinne,planner_resequence,,,M01,37,3,no,,Regroup blacks on M01 to save a changeover
+E0108,2026-04-20 08:50,2026-W17,Mon,phone,Stéphane,date_change,Brisol Automotive,O57430,M01,7,1,yes,16.2,Brisol Automotive asks to pull O57430 forward to Mon
+E0095,2026-04-20 10:16,2026-W17,Mon,email,Stéphane,date_change,Duval Home,O57407,M05,7,1,yes,21.7,Duval Home asks to push O57407 back to Wed
+E0085,2026-04-20 10:30,2026-W17,Mon,phone,Stéphane,date_change,Estrel Pipes,O57388,M05,4,1,yes,18.1,Estrel Pipes asks to pull O57388 forward to Mon
+E0112,2026-04-20 10:43,2026-W17,Mon,phone,Shift leader,machine_breakdown,,,M07,20,1,no,,"M07 stopped, cutter blade, estimated 4 h"
+E0131,2026-04-20 12:05,2026-W17,Mon,email,Stéphane,rush_order,Duval Home,O57478,M07,36,2,no,25.0,"New order O57478 Duval Home PPW-2010 22 t, needed Wed"
+E0118,2026-04-20 13:53,2026-W17,Mon,email,Stéphane,rush_order,Codra Retail,O57448,M02,42,1,no,16.0,"New order O57448 Codra Retail PPW-2030 13 t, needed Wed"
+E0109,2026-04-20 16:25,2026-W17,Mon,phone,Shift leader,machine_breakdown,,,M06,47,1,no,,"M06 stopped, gearbox noise, estimated 6 h"
+E0106,2026-04-21 09:17,2026-W17,Tue,phone,Patrick,machine_breakdown,,,M02,9,1,yes,,"M02 stopped, gearbox noise, estimated 6 h"
+E0123,2026-04-21 12:09,2026-W17,Tue,email,Stéphane,rush_order,Kerno Electrics,O57460,M04,35,1,no,15.6,"New order O57460 Kerno Electrics PPK-4010 23 t, needed Wed"
+E0111,2026-04-21 12:13,2026-W17,Tue,email,Stéphane,date_change,Alvena Packaging,O57433,M02,36,1,no,25.9,Alvena Packaging asks to pull O57433 forward to Thu
+E0093,2026-04-21 12:42,2026-W17,Tue,phone,Amina,quality_hold,Codra Retail,O57403,M06,36,1,no,,"Lot of O57403 held by lab, moisture, release in 5 h"
+E0115,2026-04-21 16:20,2026-W17,Tue,email,Stéphane,quantity_change,Codra Retail,O57441,M03,43,1,no,22.6,Codra Retail: O57441 PPN-1020 from 17 t to 10 t
+E0107,2026-04-22 01:04,2026-W17,Wed,LineLog,Kevin,night_swap,,O57429,M03,0,1,no,,swap O57429 / O57431 M03 die change late
+E0117,2026-04-22 02:08,2026-W17,Wed,LineLog,Kevin,night_swap,,O57447,M03,0,1,no,,swap O57447 / O57449 M03 no masterbatch
+E0129,2026-04-22 08:12,2026-W17,Wed,phone,Stéphane,quantity_change,Duval Home,O57475,M02,34,1,yes,14.6,Duval Home: O57475 PPG-5030 from 24 t to 29 t
+E0087,2026-04-22 08:15,2026-W17,Wed,email,Stéphane,quantity_change,Brisol Automotive,O57392,M01,20,1,yes,2.4,Brisol Automotive: O57392 PPG-5030 from 21 t to 24 t
+E0101,2026-04-22 09:58,2026-W17,Wed,email,Stéphane,rush_order,Codra Retail,O57417,M01,21,2,no,5.8,"New order O57417 Codra Retail PPW-2010 25 t, needed Thu"
+E0127,2026-04-22 11:03,2026-W17,Wed,phone,Warehouse,material_late,Kerno Electrics,O57469,M02,100,1,yes,,Masterbatch for O57469 (PPC-3110) arrives Mon instead of Sun
+E0102,2026-04-22 11:33,2026-W17,Wed,email,Stéphane,quantity_change,Estrel Pipes,O57418,M02,8,1,no,21.3,Estrel Pipes: O57418 PPC-3120 from 31 t to 28 t
+E0105,2026-04-22 13:22,2026-W17,Wed,email,Stéphane,cancellation,Codra Retail,O57426,M06,8,1,no,,Codra Retail cancels O57426
+E0128,2026-04-22 15:44,2026-W17,Wed,phone,Warehouse,material_late,Codra Retail,O57472,M03,9,1,no,,Masterbatch for O57472 (PA6-6010) arrives Fri instead of Thu
+E0083,2026-04-22 17:16,2026-W17,Wed,email,Stéphane,date_change,Duval Home,O57384,M05,4,2,no,24.2,Duval Home asks to pull O57384 forward to Wed
+E0124,2026-04-22 17:19,2026-W17,Wed,email,Stéphane,cancellation,Duval Home,O57462,M03,53,1,no,,Duval Home cancels O57462
+E0090,2026-04-23 02:43,2026-W17,Thu,LineLog,Kevin,night_swap,,O57397,M06,0,1,no,,swap O57397 / O57399 M06 die change late
+E0120,2026-04-23 07:47,2026-W17,Thu,phone,Warehouse,material_late,Duval Home,O57451,M05,27,1,no,,Masterbatch for O57451 (PPC-3120) arrives Sat instead of Fri
+E0086,2026-04-23 08:15,2026-W17,Thu,email,Stéphane,date_change,Bricoval,O57389,M05,62,1,yes,0.8,Bricoval asks to pull O57389 forward to Sat
+E0100,2026-04-23 09:19,2026-W17,Thu,email,Stéphane,quantity_change,Codra Retail,O57414,M04,9,2,yes,3.2,Codra Retail: O57414 PPW-2010 from 23 t to 14 t
+E0084,2026-04-23 09:41,2026-W17,Thu,email,Stéphane,quantity_change,Bricoval,O57387,M03,41,2,yes,16.7,Bricoval: O57387 PA6-6010 from 32 t to 44 t
+E0125,2026-04-23 10:25,2026-W17,Thu,phone,Stéphane,date_change,Brisol Automotive,O57465,M03,13,1,yes,19.2,Brisol Automotive asks to push O57465 back to Sat
+E0103,2026-04-23 11:39,2026-W17,Thu,email,Stéphane,quantity_change,Bricoval,O57420,M03,38,2,yes,18.3,Bricoval: O57420 PPK-4040 from 23 t to 17 t
+E0130,2026-04-23 12:16,2026-W17,Thu,email,Stéphane,rush_order,Codra Retail,O57477,M01,11,2,no,23.6,"New order O57477 Codra Retail PPC-3110 19 t, needed Thu"
+E0104,2026-04-23 13:24,2026-W17,Thu,workbook,Corinne,planner_resequence,,,M04,37,2,no,,Regroup colors on M04 to save a changeover
+E0097,2026-04-23 15:23,2026-W17,Thu,phone,Warehouse,material_late,Alvena Packaging,O57410,M07,26,1,no,,Masterbatch for O57410 (PPC-3120) arrives Sat instead of Fri
+E0099,2026-04-23 17:42,2026-W17,Thu,email,Stéphane,quantity_change,Brisol Automotive,O57413,M05,4,2,no,1.7,Brisol Automotive: O57413 PPC-3120 from 27 t to 33 t
+E0094,2026-04-24 08:53,2026-W17,Fri,email,Stéphane,quantity_change,Brisol Automotive,O57404,M06,19,1,yes,22.6,Brisol Automotive: O57404 PA6-6010 from 29 t to 19 t
+E0114,2026-04-24 10:53,2026-W17,Fri,email,Stéphane,quantity_change,Duval Home,O57440,M02,9,2,no,19.4,Duval Home: O57440 PPW-2010 from 17 t to 22 t
+E0122,2026-04-24 11:26,2026-W17,Fri,phone,Patrick,machine_breakdown,,,M01,33,1,yes,,"M01 stopped, strand breaks, estimated 4 h"
+E0121,2026-04-24 14:08,2026-W17,Fri,email,Stéphane,rush_order,Duval Home,O57454,M01,34,1,no,1.3,"New order O57454 Duval Home PPW-2030 20 t, needed Sun"
+E0091,2026-04-24 15:38,2026-W17,Fri,morning meeting,Patrick,maintenance_window,,,M01,78,1,no,,Preventive on M01 Mon 4 h
+E0119,2026-04-24 16:12,2026-W17,Fri,email,Stéphane,rush_order,Bricoval,O57449,M06,6,1,no,0.7,"New order O57449 Bricoval PPC-3140 9 t, needed Fri"
+E0110,2026-04-24 17:36,2026-W17,Fri,phone,Warehouse,material_late,Alvena Packaging,O57432,M04,5,1,no,,Masterbatch for O57432 (PPC-3120) arrives Sat instead of Fri
+E0098,2026-04-24 17:38,2026-W17,Fri,phone,Warehouse,material_late,Codra Retail,O57411,M06,5,1,no,,Masterbatch for O57411 (PPC-3110) arrives Sat instead of Fri
+E0089,2026-04-25 13:27,2026-W17,Sat,phone,Warehouse,material_late,Bricoval,O57395,M05,25,1,no,,Masterbatch for O57395 (PPK-4040) arrives Mon instead of Sun
+E0096,2026-04-25 13:40,2026-W17,Sat,workbook,Corinne,planner_resequence,,,M03,7,1,no,,Regroup naturals on M03 to save a changeover
+E0092,2026-04-25 14:59,2026-W17,Sat,phone,Warehouse,material_late,Bricoval,O57401,M02,120,1,no,,Masterbatch for O57401 (PPK-4040) arrives Fri instead of Thu
+E0088,2026-04-26 16:40,2026-W17,Sun,email,Stéphane,rush_order,Estrel Pipes,O57394,M05,39,2,no,16.1,"New order O57394 Estrel Pipes PPC-3110 14 t, needed Tue"
+E0116,2026-04-26 17:20,2026-W17,Sun,phone,Patrick,machine_breakdown,,,M02,56,1,no,,"M02 stopped, cutter blade, estimated 6 h"
+E0139,2026-04-27 04:17,2026-W18,Mon,LineLog,Kevin,night_swap,,O57493,M06,0,1,no,,swap O57493 / O57495 M06 no masterbatch
+E0170,2026-04-27 07:32,2026-W18,Mon,phone,Warehouse,material_late,Duval Home,O57550,M05,9,1,no,,Masterbatch for O57550 (PPK-4040) arrives Tue instead of Mon
+E0167,2026-04-27 07:39,2026-W18,Mon,email,Stéphane,date_change,Codra Retail,O57544,M03,44,1,no,25.5,Codra Retail asks to push O57544 back to Fri
+E0147,2026-04-27 09:35,2026-W18,Mon,email,Stéphane,date_change,Estrel Pipes,O57505,M05,33,1,no,25.6,Estrel Pipes asks to pull O57505 forward to Tue
+E0188,2026-04-27 10:11,2026-W18,Mon,email,Stéphane,rush_order,Bricoval,O57586,M04,8,2,no,23.6,"New order O57586 Bricoval PPC-3120 27 t, needed Mon"
+E0132,2026-04-27 12:03,2026-W18,Mon,email,Stéphane,date_change,Codra Retail,O57480,M02,42,2,no,14.6,Codra Retail asks to pull O57480 forward to Wed
+E0162,2026-04-27 15:59,2026-W18,Mon,morning meeting,Amina,quality_hold,Duval Home,O57537,M02,8,1,no,,"Lot of O57537 held by lab, moisture, release in 2 h"
+E0153,2026-04-28 07:41,2026-W18,Tue,phone,Shift leader,machine_breakdown,,,M06,15,1,yes,,"M06 stopped, strand breaks, estimated 2 h"
+E0163,2026-04-28 09:43,2026-W18,Tue,phone,Stéphane,quantity_change,Codra Retail,O57539,M07,22,1,no,23.9,Codra Retail: O57539 PPW-2030 from 16 t to 8 t
+E0174,2026-04-28 09:58,2026-W18,Tue,phone,Patrick,machine_breakdown,,,M03,101,1,no,,"M03 stopped, strand breaks, estimated 6 h"
+E0142,2026-04-28 10:36,2026-W18,Tue,phone,Stéphane,date_change,Duval Home,O57499,M02,11,1,no,0.9,Duval Home asks to pull O57499 forward to Tue
+E0165,2026-04-28 11:16,2026-W18,Tue,email,Stéphane,cancellation,Alvena Packaging,O57542,M04,27,1,no,,Alvena Packaging cancels O57542
+E0145,2026-04-28 12:15,2026-W18,Tue,workbook,Corinne,planner_resequence,,,M02,18,3,no,,Regroup colors on M02 to save a changeover
+E0173,2026-04-28 12:31,2026-W18,Tue,workbook,Corinne,planner_resequence,,,M04,23,2,no,,Regroup blacks on M04 to save a changeover
+E0161,2026-04-28 14:15,2026-W18,Tue,email,Stéphane,date_change,Duval Home,O57534,M03,29,2,no,26.0,Duval Home asks to pull O57534 forward to Wed
+E0156,2026-04-28 17:30,2026-W18,Tue,email,Stéphane,rush_order,Duval Home,O57526,M05,37,1,no,18.4,"New order O57526 Duval Home PPC-3110 11 t, needed Thu"
+E0135,2026-04-29 05:07,2026-W18,Wed,LineLog,Kevin,night_swap,,O57485,M04,0,1,no,,swap O57485 / O57487 M04 crew short
+E0186,2026-04-29 07:21,2026-W18,Wed,email,Stéphane,rush_order,Codra Retail,O57583,M01,33,2,yes,16.6,"New order O57583 Codra Retail PPG-5030 21 t, needed Thu"
+E0185,2026-04-29 08:48,2026-W18,Wed,phone,Amina,quality_hold,Bricoval,O57580,M04,110,1,yes,,"Lot of O57580 held by lab, melt flow out of spec, release in 4 h"
+E0166,2026-04-29 09:03,2026-W18,Wed,LineLog,Shift leader,machine_breakdown,,,M07,118,1,yes,,"M07 stopped, strand breaks, estimated 1 h"
+E0172,2026-04-29 09:56,2026-W18,Wed,email,Stéphane,date_change,Alvena Packaging,O57554,M06,17,2,no,5.7,Alvena Packaging asks to push O57554 back to Sat
+E0149,2026-04-29 10:47,2026-W18,Wed,phone,Shift leader,machine_breakdown,,,M04,42,1,no,,"M04 stopped, feeder, estimated 2 h"
+E0138,2026-04-29 11:42,2026-W18,Wed,email,Stéphane,date_change,Brisol Automotive,O57490,M07,33,2,yes,24.0,Brisol Automotive asks to pull O57490 forward to Thu
+E0176,2026-04-29 12:26,2026-W18,Wed,email,Stéphane,quantity_change,Codra Retail,O57564,M01,31,1,no,20.0,Codra Retail: O57564 PPG-5030 from 34 t to 43 t
+E0154,2026-04-29 15:33,2026-W18,Wed,MaintPro,Patrick,maintenance_window,,,M06,63,1,no,,Preventive on M06 Sat 4 h
+E0137,2026-04-29 15:52,2026-W18,Wed,phone,Amina,quality_hold,Duval Home,O57488,M07,125,1,no,,"Lot of O57488 held by lab, melt flow out of spec, release in 5 h"
+E0152,2026-04-29 16:57,2026-W18,Wed,workbook,Corinne,planner_resequence,,,M07,5,2,no,,Regroup colors on M07 to save a changeover
+E0159,2026-04-29 17:52,2026-W18,Wed,email,Stéphane,rush_order,Duval Home,O57530,M01,97,1,no,20.4,"New order O57530 Duval Home PPW-2030 9 t, needed Sun"
+E0169,2026-04-30 01:52,2026-W18,Thu,LineLog,Kevin,night_swap,,O57547,M05,0,1,no,,swap O57547 / O57549 M05 no masterbatch
+E0141,2026-04-30 04:16,2026-W18,Thu,LineLog,Kevin,night_swap,,O57498,M06,0,1,no,,swap O57498 / O57500 M06 no masterbatch
+E0146,2026-04-30 04:43,2026-W18,Thu,LineLog,Kevin,night_swap,,O57504,M06,0,1,no,,swap O57504 / O57506 M06 no masterbatch
+E0181,2026-04-30 07:25,2026-W18,Thu,email,Stéphane,quantity_change,Duval Home,O57572,M06,51,1,yes,18.8,Duval Home: O57572 PPC-3110 from 32 t to 40 t
+E0157,2026-04-30 09:11,2026-W18,Thu,email,Stéphane,cancellation,Duval Home,O57527,M03,47,1,no,,Duval Home cancels O57527
+E0151,2026-04-30 09:43,2026-W18,Thu,LineLog,Patrick,machine_breakdown,,,M04,89,1,yes,,"M04 stopped, strand breaks, estimated 2 h"
+E0168,2026-04-30 10:09,2026-W18,Thu,email,Stéphane,quantity_change,Codra Retail,O57546,M03,8,1,no,0.9,Codra Retail: O57546 PA6-6010 from 25 t to 21 t
+E0133,2026-04-30 11:39,2026-W18,Thu,email,Stéphane,quantity_change,Estrel Pipes,O57481,M01,39,2,no,15.4,Estrel Pipes: O57481 PPK-4010 from 22 t to 11 t
+E0175,2026-04-30 12:43,2026-W18,Thu,email,Stéphane,rush_order,Bricoval,O57561,M02,11,2,no,14.3,"New order O57561 Bricoval PPG-5030 12 t, needed Thu"
+E0160,2026-04-30 14:19,2026-W18,Thu,email,Stéphane,quantity_change,Duval Home,O57531,M01,35,1,no,22.7,Duval Home: O57531 PPN-1010 from 16 t to 22 t
+E0183,2026-04-30 17:39,2026-W18,Thu,email,Stéphane,quantity_change,Duval Home,O57576,M05,9,2,no,15.9,Duval Home: O57576 PPK-4040 from 15 t to 9 t
+E0164,2026-04-30 17:48,2026-W18,Thu,workbook,Corinne,planner_resequence,,,M05,15,3,no,,Regroup blacks on M05 to save a changeover
+E0148,2026-05-01 03:17,2026-W18,Fri,LineLog,Kevin,night_swap,,O57506,M04,0,1,no,,swap O57506 / O57508 M04 crew short
+E0155,2026-05-01 10:22,2026-W18,Fri,email,Stéphane,date_change,Bricoval,O57523,M02,46,2,no,3.4,Bricoval asks to push O57523 back to Tue
+E0187,2026-05-01 14:11,2026-W18,Fri,MaintPro,Patrick,maintenance_window,,,M01,53,1,no,,Preventive on M01 Sun 3 h
+E0180,2026-05-01 14:49,2026-W18,Fri,MaintPro,Patrick,maintenance_window,,,M03,101,1,no,,Preventive on M03 Tue 4 h
+E0158,2026-05-01 14:54,2026-W18,Fri,morning meeting,Amina,quality_hold,Codra Retail,O57528,M05,29,1,no,,"Lot of O57528 held by lab, color delta, release in 6 h"
+E0144,2026-05-01 15:16,2026-W18,Fri,email,Stéphane,rush_order,Brisol Automotive,O57502,M03,16,1,no,16.9,"New order O57502 Brisol Automotive PPK-4040 10 t, needed Sat"
+E0184,2026-05-01 15:38,2026-W18,Fri,email,Stéphane,cancellation,Codra Retail,O57578,M05,12,1,no,,Codra Retail cancels O57578
+E0177,2026-05-01 16:21,2026-W18,Fri,email,Stéphane,quantity_change,Codra Retail,O57565,M05,13,1,no,17.8,Codra Retail: O57565 PPG-5030 from 29 t to 40 t
+E0134,2026-05-01 16:26,2026-W18,Fri,email,Stéphane,quantity_change,Alvena Packaging,O57483,M06,45,1,no,2.1,Alvena Packaging: O57483 PPC-3140 from 29 t to 34 t
+E0182,2026-05-01 16:41,2026-W18,Fri,phone,Shift leader,machine_breakdown,,,M01,19,1,no,,"M01 stopped, gearbox noise, estimated 2 h"
+E0179,2026-05-02 08:19,2026-W18,Sat,email,Stéphane,date_change,Alvena Packaging,O57567,M05,22,2,yes,16.3,Alvena Packaging asks to push O57567 back to Tue
+E0171,2026-05-02 09:31,2026-W18,Sat,phone,Stéphane,date_change,Alvena Packaging,O57553,M01,112,1,yes,4.2,Alvena Packaging asks to pull O57553 forward to Thu
+E0140,2026-05-02 12:48,2026-W18,Sat,phone,Amina,quality_hold,Bricoval,O57495,M05,28,1,no,,"Lot of O57495 held by lab, color delta, release in 3 h"
+E0178,2026-05-02 13:15,2026-W18,Sat,morning meeting,Amina,quality_hold,Bricoval,O57566,M04,108,1,no,,"Lot of O57566 held by lab, moisture, release in 4 h"
+E0143,2026-05-02 14:16,2026-W18,Sat,phone,Warehouse,material_late,Codra Retail,O57500,M01,13,1,no,,Masterbatch for O57500 (PPN-1020) arrives Mon instead of Sun
+E0150,2026-05-02 16:08,2026-W18,Sat,email,Stéphane,date_change,Codra Retail,O57510,M07,27,1,no,20.2,Codra Retail asks to pull O57510 forward to Sun
+E0136,2026-05-03 10:48,2026-W18,Sun,phone,Warehouse,material_late,Estrel Pipes,O57486,M03,117,1,no,,Masterbatch for O57486 (PPC-3110) arrives Sat instead of Fri

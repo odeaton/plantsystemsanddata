@@ -1,0 +1,85 @@
+{
+ "_read_me": "Give every actor the least grants it needs. A grant is \"action:resource\", for example \"write:plan:published\". \"read:*\" reads everything. See _catalog. The tests in tests/architecture.test.mjs check the gates.",
+ "_catalog": {
+  "actions": [
+   "read",
+   "write",
+   "call"
+  ],
+  "resources": [
+   "plan:draft",
+   "plan:published",
+   "event:proposed",
+   "event:confirmed",
+   "rule:proposed",
+   "rule:validated",
+   "execution",
+   "whatif",
+   "sap:process_orders",
+   "llm:event_reader",
+   "llm:explainer",
+   "tool:submit_event",
+   "tool:write_explanation",
+   "audit"
+  ]
+ },
+ "kill_switch": {
+  "engaged": false,
+  "owner": "Nadia"
+ },
+ "gates": {
+  "publish": {
+   "approvers": [
+    "human:corinne"
+   ]
+  },
+  "rule_activation": {
+   "approvers": [
+    "human:corinne"
+   ]
+  }
+ },
+ "actors": {
+  "human:corinne": {
+   "grants": [
+    "read:*"
+   ]
+  },
+  "human:sylvie": {
+   "grants": [
+    "read:*"
+   ]
+  },
+  "human:stephane": {
+   "grants": [
+    "read:*"
+   ]
+  },
+  "human:kevin": {
+   "grants": [
+    "read:*"
+   ]
+  },
+  "human:nadia": {
+   "grants": [
+    "read:*"
+   ]
+  },
+  "agent:event-reader": {
+   "grants": []
+  },
+  "agent:explainer": {
+   "grants": []
+  },
+  "service:long-solver": {
+   "grants": []
+  },
+  "service:fast-solver": {
+   "grants": []
+  },
+  "service:sap-writeback": {
+   "enabled": false,
+   "grants": []
+  }
+ }
+}
